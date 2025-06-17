@@ -20,3 +20,9 @@ Coding-Practice/
 ├── Codeforces/
 │   └── Round_123/
 └── Resources/             # 算法模板、学习资料
+## LeetCode 错题记录：跳跃游戏（Jump Game）
+LeetCode/
+└── JumpGame/
+    ├── ErrorSolution.java  # 包含您有问题的原始代码
+    ├── FixedSolution.java  # 包含修复后的正确代码
+    └── README.md           # 包含错题分析和解释
