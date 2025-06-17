@@ -23,6 +23,6 @@ Coding-Practice/
 ## LeetCode 错题记录：跳跃游戏（Jump Game）
 LeetCode/
 └── JumpGame/
-    ├── ErrorSolution.java  # 包含您有问题的原始代码
-    ├── FixedSolution.java  # 包含修复后的正确代码
-    └── README.md           # 包含错题分析和解释
+    ├── ErrorSolution.java  
+    ├── FixedSolution.java  
+
