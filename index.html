@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日饮食运势决策币</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 复古电视容器 -->
+        <div class="tv-container">
+            <div class="tv-frame">
+                <!-- 电视屏幕 -->
+                <div class="tv-screen">
+                    <!-- 开机动画 -->
+                    <div id="startup-animation" class="screen-content">
+                        <div class="static-noise"></div>
+                        <div class="startup-text">今日食  ？</div>
+                    </div>
+                    
+                    <!-- 抽签转盘 -->
+                    <div id="lottery-section" class="screen-content hidden">
+                        <div class="lottery-wheel-container">
+                            <div id="lottery-wheel" class="lottery-wheel">
+                                <div class="wheel-section" data-fortune="reward">犒劳自己</div>
+                                <div class="wheel-section" data-fortune="health">养生局</div>
+                                <div class="wheel-section" data-fortune="happiness">小确幸</div>
+                                <div class="wheel-section" data-fortune="lazy">躺平</div>
+                                <div class="wheel-section" data-fortune="destiny">天注定</div>
+                            </div>
+                            <div class="wheel-pointer"></div>
+                        </div>
+                        <button id="draw-button" class="action-button">点击抽签</button>
+                    </div>
+                    
+                    <!-- 运势展示 -->
+                    <div id="fortune-section" class="screen-content hidden">
+                        <h2 id="fortune-title" class="fortune-title"></h2>
+                        <p id="fortune-text" class="fortune-text"></p>
+                        <button id="coin-button" class="action-button">批准申请！</button>
+                    </div>
+                    
+                    <!-- 抛硬币 -->
+                    <div id="coin-section" class="screen-content hidden">
+                        <div id="coin" class="coin"></div>
+                    </div>
+                    
+                    <!-- 结果展示 -->
+                    <div id="result-section" class="screen-content hidden">
+                        <div id="food-animation" class="food-animation"></div>
+                        <h3 id="result-title" class="result-title"></h3>
+                        <p id="result-text" class="result-text"></p>
+                        <button id="restart-button" class="action-button">再来一次</button>
+                    </div>
+                </div>
+                
+                <!-- 电视底座 -->
+                <div class="tv-base"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
